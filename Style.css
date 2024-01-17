@@ -1,0 +1,134 @@
+/*Aquí inicia el CSS para header*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #83f3f7;
+    padding: 20px 0;
+}
+
+.contenedorHeader{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1{
+    display:inline;
+
+}
+
+#img_1{
+    max-height: 56px;
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+fieldset{
+    border: none;
+}
+
+.input {
+	padding: 10px;
+}
+
+.button {
+	background-color: rgba(73,101,135,1);
+	color: #FFF;
+	cursor: pointer;
+}
+
+.input, .button {
+	outline: 0;
+	border: 1px solid rgba(73,101,135,1);
+	box-sizing: border-box;
+	font-size: 16px;
+    border-radius: 5px;
+}
+
+
+/*Aquí inicia el CSS para contenido*/
+
+.contenido {
+	width: 940px;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px0;
+}
+
+.tituloPrincipal {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.contenidoPrincipal{
+    display: flex;
+	flex-wrap: wrap;
+}
+.contenidoPrincipal li{
+    display: inline-block;
+    text-align:left;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+	border: 1px solid #9799A6;
+}
+
+.contenidoPrincipal img{
+    max-height: 70px;
+    max-width: 150px;
+    vertical-align: top;
+    border-radius: 30px;
+
+}
+
+.contenidoPrincipal li:hover {
+	background-color:  #f2f2f2;
+}
+
+
+
+/*Aquí inicia el CSS para footer*/
+
+footer{
+    text-align: center;
+    background-color:  #83f3f7;
+    padding:40px;
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin:20px;
+}
+
+
+/*Aquí media*/
+@media(max-width: 768px) {
+    .contenedorHeader{
+        flex-direction: column;
+		align-items:center;
+        justify-content: space-between;
+    }
+    
+    .tituloPrincipal{
+        text-align: center;
+    }
+    .contenidoPrincipal {
+		flex-direction: column;
+        align-items:center;
+	}
+    
+
+}
+
