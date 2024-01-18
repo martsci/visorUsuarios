@@ -128,6 +128,10 @@ footer{
         flex-direction: column;
 		align-items:center;
         justify-content:center;
+        width: auto;
+    }
+    .contenido{
+        width:85%;
     }
     
     .tituloPrincipal{
@@ -143,6 +147,11 @@ footer{
     .contenidoPrincipal li{
         flex-direction: column;
         align-items:center;
+        width:90%;
+    }
+    .contenidoPrincipal div{
+        padding: 0%;
+        width: auto;
     }
     
 }
